@@ -1,0 +1,11 @@
+venv/
+env/
+.venv/
+agent-agri/
+lib/
+site-packages/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
