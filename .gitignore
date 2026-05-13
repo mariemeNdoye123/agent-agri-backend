@@ -1,11 +1,35 @@
+# Environnements virtuels
 venv/
 env/
 .venv/
-agent-agri/
-lib/
-site-packages/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Variables d'environnement
 .env
+
+# IDE
 .vscode/
 .idea/
+
+# Bases de données locales (TRÈS IMPORTANT pour ton projet)
+*.sqlite3
+*.db
+
+# Chroma DB (vector store local)
+chroma_db/
+chromadb/
+
+# Logs
+*.log
+
+# Jupyter (si utilisé)
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
